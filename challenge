@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int f;
+
+    printf("donnez moi la temperature en fahrenheit\n");
+    scanf("%d",&f);
+
+    f=(f-32)/1.8;
+
+    printf("la temperature en degre celecius est: %dC\n",f);
+
+    if(f<10){
+        printf("tres froid\n");
+    }
+
+    else if(f>10 && f<30){
+        printf("froid\n");
+    }
+
+     else if(f>30 && f<40){
+        printf("chaud\n");
+    }
+
+     else if(f>40){
+        printf("tres chaud\n");
+    }
+
+    return 0;
+}
+
