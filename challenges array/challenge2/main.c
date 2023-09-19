@@ -22,8 +22,17 @@ int main()
       }
 
     }
+    for(int i=1;i<=10;i++){
 
-    printf("le nembre plus grande est %d\n",x);
+        printf("%d",tab[i]);
+        if(i<10)
+        {
+            printf(",");
+        }
+    }
+
+
+    printf("\nle nembre plus grande est %d\n",x);
     printf("le nembre plus petit est %d\n",y);
 
 
